@@ -3,13 +3,13 @@ var getHTML = require('../step5').getHTML,
 
 var requestOptions = {
   host: 'sytantris.github.io',
-  path: '/http-examples/step6/reverse.html'
+  path: '/http-examples/step6/uppercase.html'
 };
 
-function printReverse (html) {
-  html = html.split("").reverse().join("");
-  console.log(html);
+function print_1337 (html) {
+
   /* Write your code here! */
+
 }
 
-getHTML(requestOptions, printReverse);
+getHTML(requestOptions, printUpperCase);

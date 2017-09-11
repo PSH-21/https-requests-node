@@ -1,4 +1,5 @@
-var getHTML = require('../step5').getHTML;
+var getHTML = require('../step5').getHTML,
+    printHTML = require('../step5').printHTML
 
 var requestOptions = {
   host: 'sytantris.github.io',
@@ -12,4 +13,3 @@ function printUpperCase (html) {
 }
 
 getHTML(requestOptions, printUpperCase);
-
